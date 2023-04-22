@@ -1,6 +1,5 @@
 * {
-    font-family: Verdana, Arial, Tahoma, Serif;
-    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 a:link, a:visited {
@@ -27,21 +26,17 @@ a:link, a:visited {
 .right {
     display: flex;
     margin-right: 10vw;
-    height: 100vh;
+    height: 80vh;
     width: 60vw;
-}
-
-.left, .right {
-    display: flex;
-    background-color: lightgray
-  
-    
+    padding: 20vh 5vw 0vh 5vw;
+    font-weight: 500;
+    font-size: larger;
+    background-color: lightgrey;
 }
 
 .caption{
     position: absolute;
     bottom:0;
-    background: none;
     padding-left: 30px;
     color: rgb(225, 225, 199);
     font-size: 50%;
