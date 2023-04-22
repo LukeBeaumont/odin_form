@@ -6,13 +6,11 @@ a:link, a:visited {
  color: rgb(225, 225, 199);
  background: local;
  
- 
-}
-
+ }
 
 .main-container {
     display: flex;
-    }
+}
 
 .left {
     margin-left: 10vw;
@@ -26,9 +24,9 @@ a:link, a:visited {
 .right {
     display: flex;
     margin-right: 10vw;
-    height: 80vh;
+    height: 90vh;
     width: 60vw;
-    padding: 20vh 5vw 0vh 5vw;
+    padding: 10vh 5vw 0vh 5vw;
     font-weight: 500;
     font-size: larger;
     background-color: lightgrey;
