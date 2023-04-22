@@ -1,0 +1,44 @@
+* {
+    font-family: Verdana, Arial, Tahoma, Serif;
+    background-color: black;
+}
+
+a:link, a:visited {
+ color: beige;
+ 
+}
+
+.main-container {
+    display: flex;
+    }
+
+.left {
+    margin-left: 10vw;
+    height: 100vh;
+    width: 40vw;
+    background-image: url("./form-images/sandie-clarke-HcqgubITDbU-unsplash.jpg");
+    background-size: cover;
+    
+}
+
+.right {
+    margin-right: 10vw;
+    height: 100vh;
+    width: 60vw;
+}
+
+.left, .right {
+    display: flex;
+    background-color: azure;
+  
+    
+}
+
+.caption{
+    position: absolute;
+    bottom:0;
+    background: none;
+    padding-left: 30px;
+    color: beige;
+    font-size: smaller;
+}
