@@ -8,6 +8,10 @@ a:link, a:visited {
  
  }
 
+ p {
+    color:rgb(29, 33, 18)
+ }
+
 .main-container {
     display: flex;
 }
