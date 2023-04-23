@@ -1,5 +1,7 @@
-* {
+body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0%;
+    padding: 0%;
 }
 
 a:link, a:visited {
@@ -17,7 +19,6 @@ a:link, a:visited {
 }
 
 .left {
-    margin-left: 10vw;
     height: 100vh;
     width: 40vw;
     background-image: url("./form-images/sandie-clarke-HcqgubITDbU-unsplash.jpg");
@@ -27,7 +28,6 @@ a:link, a:visited {
 
 .right {
     display: flex;
-    margin-right: 10vw;
     height: 90vh;
     width: 60vw;
     padding: 10vh 5vw 0vh 5vw;
