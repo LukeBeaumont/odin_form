@@ -28,9 +28,9 @@ a:link, a:visited {
 
 .right {
     display: flex;
-    height: 90vh;
+    flex-direction: column;
+    height: 100vh;
     width: 60vw;
-    padding: 10vh 5vw 0vh 5vw;
     font-weight: 500;
     font-size: larger;
     background-color: lightgrey;
@@ -42,4 +42,15 @@ a:link, a:visited {
     padding-left: 30px;
     color: rgb(225, 225, 199);
     font-size: 50%;
+}
+
+.text {
+    padding-top: 80px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+}
+
+.form {
+    background-color: white;
+    box-sizing: content-box;
 }
