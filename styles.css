@@ -23,7 +23,12 @@ a:link, a:visited {
     width: 40vw;
     background-image: url("./form-images/sandie-clarke-HcqgubITDbU-unsplash.jpg");
     background-size: cover;
-    
+       
+}
+
+.banner {
+    display: flex;
+    background-color: white;
 }
 
 .right {
@@ -56,13 +61,14 @@ a:link, a:visited {
     display: flex;
     background-color: white;
     box-shadow: 0 5px 5px 4px rgba(0, 0, 0, 0.1);
+    padding: 40px;
 }
 
 form > div {
     
-    display: inline;
-    background-color: aqua;
-    flex-wrap: wrap;
+    display: block;
+    padding: 10px;
+    margin-left: 10px;
     
 
 }
@@ -73,11 +79,14 @@ input {
     padding: 0px;
     margin: 2px;
     box-sizing: border-box;
+    display: block;
     
 }
 
 label {
     
+
     font-size: 0.7rem;
     letter-spacing: 0.1rem;
+    ;
 }
