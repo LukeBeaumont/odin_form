@@ -1,3 +1,7 @@
+:root {
+ --main-color: #596D48;
+}
+
 body {
     font-family: sans-serif;
     margin: 0%;
@@ -61,32 +65,61 @@ a:link, a:visited {
     display: flex;
     background-color: white;
     box-shadow: 0 5px 5px 4px rgba(0, 0, 0, 0.1);
-    padding: 40px;
+    padding: 20px;
 }
 
 form > div {
     
-    display: block;
     padding: 10px;
-    margin-left: 10px;
+    display: block;
+
+
     
 
 }
 
 input {
+    
     font-family: inherit;
-    width: 150px;
+    width: 180px;
+    height: 20px;
     padding: 0px;
     margin: 2px;
-    box-sizing: border-box;
-    display: block;
+
+    border: 1px solid #e5e7eb;
+    border-radius: 4px;
+    padding: 4px 8px;
+   
     
 }
 
 label {
     
-
+    
     font-size: 0.7rem;
     letter-spacing: 0.1rem;
-    ;
+    display: block;
+    margin-bottom: 1px;
+
+}
+
+.names, .contact, .password {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+button {
+    width: 220px;
+    margin-left: 50px;
+    margin-top: 32px;
+    border: none;
+    background-color: var(--main-color);
+    padding: 12px 20px;
+    border-radius: 8px;
+    box-shadow: 2px 5px 5px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    color: white;
+    font-weight: 700;
+    font-size: 1.1rem;
 }
