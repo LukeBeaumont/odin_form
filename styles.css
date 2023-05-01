@@ -32,7 +32,13 @@ a:link, a:visited {
 
 .banner {
     display: flex;
-    background-color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    margin-top: 20vh;
+    color: antiquewhite;
+    padding: 16px 0;
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .right {
@@ -96,7 +102,15 @@ input {
 
 input:hover, input:focus {
     border: 1px solid rgb(244, 184, 13);
+    
+    
 
+}
+label:hover, label:focus {
+    transform: translateX(10px);
+    transform: translateY(-15px);
+    background-color: white;
+    
 }
 
 label {
