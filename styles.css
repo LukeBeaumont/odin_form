@@ -41,6 +41,11 @@ a:link, a:visited {
     background-color: rgba(0, 0, 0, 0.4);
 }
 
+img {
+    height: 100px;
+    width: auto;
+}
+
 .right {
     display: flex;
     flex-direction: column;
@@ -88,7 +93,7 @@ input {
     
     font-family: inherit;
     width: 180px;
-    height: 20px;
+    height: 25px;
     padding: 0px;
     margin: 2px;
 
@@ -106,11 +111,16 @@ input:hover, input:focus {
     
 
 }
-label:hover, label:focus {
-    transform: translateX(10px);
-    transform: translateY(-15px);
+
+form > div:hover label, form > div:focus label {
+    transform: translateY(10px);
+    transform: translateY(-10px);
     background-color: white;
-    
+    font-size: 0.6em;
+    border-left: 1px solid rgb(244, 184, 13);
+    border-right: 1px solid rgb(244, 184, 13);
+    padding: 0 10px
+   
 }
 
 label {
