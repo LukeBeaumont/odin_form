@@ -1,5 +1,6 @@
 :root {
  --main-color: #677c55;
+ --yellow: rgb(244, 184, 13);
 }
 
 body {
@@ -7,16 +8,6 @@ body {
     margin: 0%;
     padding: 0%;
 }
-
-a:link, a:visited {
- color: rgb(225, 225, 199);
- background: local;
- 
- }
-
- p {
-    color:rgb(29, 33, 18)
- }
 
 .main-container {
     display: flex;
@@ -45,13 +36,17 @@ img {
     height: 80px;
     width: auto;
 }
+/* style for links on image credits */
+a:link, a:visited {
+    color: rgb(225, 225, 199);
+    background: local;
+}
 
 .right {
     display: flex;
     flex-direction: column;
     height: 100vh;
     width: 60vw;
-    
     background-color: lightgrey;
 }
 
@@ -69,7 +64,6 @@ img {
     padding-bottom: 10px;
     font-size: 22px;
     font-weight: 600;
-    
 }
 
 .form {
@@ -98,34 +92,22 @@ input {
     border: 1px solid #e5e7eb;
     border-radius: 4px;
     padding: 4px 12px;
-    
-   
-    
 }
 
 input:hover, input:focus {
-    border: 1px solid rgb(244, 184, 13);
-    
-    
-
+    border: 1px solid var(--yellow)
 }
 
-.inputs:hover label {
+.inputs:hover label, .inputs:focus-within label {
     transform: translateX(10px);
-
-
     background-color: white;
     font-size: 0.6em;
-    border-left: 2px solid rgb(244, 184, 13);
-    border-right: 2px solid rgb(244, 184, 13);
+    border-left: 2px solid var(--yellow);
+    border-right: 2px solid var(--yellow);
     padding: 0 10px
-    
-   
 }
 
 label {
-    
-    
     font-size: 0.7rem;
     letter-spacing: 0.1rem;
     display: block;
@@ -134,13 +116,11 @@ label {
     padding: 10px;
     color: rgb(153, 153, 153);
     transition: 0.3s;
-
 }
 
 .names, .contact, .password {
     display: flex;
     flex-wrap: wrap;
-    
 }
 
 button {
