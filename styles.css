@@ -35,14 +35,14 @@ a:link, a:visited {
     justify-content: center;
     align-items: center;
     font-size: 2.5rem;
-    margin-top: 20vh;
+    margin-top: 16vh;
     color: antiquewhite;
-    padding: 16px 0;
+    padding: 5px 0;
     background-color: rgba(0, 0, 0, 0.4);
 }
 
 img {
-    height: 100px;
+    height: 80px;
     width: auto;
 }
 
