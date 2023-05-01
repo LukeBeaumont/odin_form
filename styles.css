@@ -1,5 +1,5 @@
 :root {
- --main-color: #596D48;
+ --main-color: #677c55;
 }
 
 body {
@@ -66,16 +66,16 @@ a:link, a:visited {
     background-color: white;
     box-shadow: 0 5px 5px 4px rgba(0, 0, 0, 0.1);
     padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 form > div {
     
     padding: 10px;
     display: block;
-
-
-    
-
+    column-gap: 84px;
+    margin-left: 50px;
 }
 
 input {
@@ -89,8 +89,14 @@ input {
     border: 1px solid #e5e7eb;
     border-radius: 4px;
     padding: 4px 8px;
+    
    
     
+}
+
+input:hover, input:focus {
+    border: 1px solid rgb(244, 184, 13);
+
 }
 
 label {
@@ -100,6 +106,9 @@ label {
     letter-spacing: 0.1rem;
     display: block;
     margin-bottom: 1px;
+    position: absolute;
+    padding: 10px;
+    color: rgb(153, 153, 153);
 
 }
 
