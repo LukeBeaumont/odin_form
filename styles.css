@@ -93,13 +93,11 @@ input {
     
     font-family: inherit;
     width: 180px;
-    height: 25px;
-    padding: 0px;
+    height: 30px;
     margin: 2px;
-
     border: 1px solid #e5e7eb;
     border-radius: 4px;
-    padding: 4px 8px;
+    padding: 4px 10px;
     
    
     
@@ -112,9 +110,10 @@ input:hover, input:focus {
 
 }
 
-form > div:hover label, form > div:focus label {
-    transform: translateY(10px);
-    transform: translateY(-10px);
+.inputs:hover label {
+    transform: translateX(10px);
+
+
     background-color: white;
     font-size: 0.6em;
     border-left: 1px solid rgb(244, 184, 13);
