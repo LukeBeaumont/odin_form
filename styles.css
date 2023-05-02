@@ -35,6 +35,7 @@ body {
 img {
     height: 80px;
     width: auto;
+    margin-right: 15px;
 }
 /* style for links on image credits */
 a:link, a:visited {
@@ -137,3 +138,18 @@ button {
     font-weight: 700;
     font-size: 1.1rem;
 }
+
+input + label {
+    position: relative;
+  }
+  
+  input:required + label::after {
+    font-size: 0.7rem;
+    position: absolute;
+    content: "required";
+    color: white;
+    background-color: black;
+    padding: 5px 10px;
+    top: -26px;
+    left: -70px;
+  }
