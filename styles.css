@@ -60,10 +60,10 @@ a:link, a:visited {
 }
 
 .text {
-    padding-top: 60px;
+    padding-top: 40px;
     padding-left: 80px;
-    padding-bottom: 10px;
-    font-size: 22px;
+    padding-bottom: 30px;
+    font-size: clamp(16px, 3vw, 20px);
     font-weight: 600;
 }
 
@@ -139,17 +139,11 @@ button {
     font-size: 1.1rem;
 }
 
-input + label {
-    position: relative;
-  }
-  
-  input:required + label::after {
-    font-size: 0.7rem;
-    position: absolute;
-    content: "required";
-    color: white;
-    background-color: black;
-    padding: 5px 10px;
-    top: -26px;
-    left: -70px;
-  }
+.new {
+    transform: translateX(10px);
+    background-color: white;
+    font-size: 0.6em;
+    border-left: 2px solid var(--yellow);
+    border-right: 2px solid var(--yellow);
+    padding: 0 10px
+}
