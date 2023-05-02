@@ -60,9 +60,9 @@ a:link, a:visited {
 }
 
 .text {
-    padding-top: 40px;
-    padding-left: 80px;
-    padding-bottom: 30px;
+    padding-top: 3vw;
+    padding-left: 5vw;
+    padding-bottom: 3vw;
     font-size: clamp(16px, 3vw, 20px);
     font-weight: 600;
 }
@@ -71,7 +71,6 @@ a:link, a:visited {
     display: flex;
     background-color: white;
     box-shadow: 0 5px 5px 4px rgba(0, 0, 0, 0.1);
-    padding: 20px;
     padding-top: 40px;
     padding-bottom: 40px;
 }
