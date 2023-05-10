@@ -60,9 +60,9 @@ a:link, a:visited {
 }
 
 .text {
-    padding-top: 3vw;
+    padding-top: 40px;
     padding-left: 5vw;
-    padding-bottom: 3vw;
+    padding-bottom: 30px;
     font-size: clamp(16px, 3vw, 20px);
     font-weight: 600;
 }
@@ -107,7 +107,7 @@ input:hover, input:focus {
     padding: 0 10px
 }
 
-.label-start {
+label {
     font-size: 0.7rem;
     letter-spacing: 0.1rem;
     display: block;
@@ -117,18 +117,6 @@ input:hover, input:focus {
     color: rgb(153, 153, 153);
     transition: 0.3s;
 }
-
-.label-finish {
-    font-size: 0.7rem;
-    letter-spacing: 0.1rem;
-    display: block;
-    margin-bottom: 1px;
-    position: absolute;
-    padding: 10px;
-    color: rgb(153, 153, 153);
-    transition: 0.3s;
-}
-
 
 .names, .contact, .password {
     display: flex;
